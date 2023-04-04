@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#666;
+}
+.wrapper{
+    margin: auto 0;
+    width: 100%;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* header{
+    height: 100vh;
+} */
+header .header{
+    
+   
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+header .main {
+   
+    display: block;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.slider{
+    height: 100vh;
+    background-image: url(../images/homepage.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+/* .page-title{
+    height: 50vh;
+} */
+.page-title{
+   
+    text-align: center;
+    color: white;
+    
+}
+.page-title h1{
+    background-color: #fff;
+    opacity: 0.5;
+    color:#000;
+}
+.title-sub{
+    padding: 230px 0;
+}
+/* ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 39px;
+    font-weight: bold;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    z-index: 99999;
+    color:#38ACEC;
+
+}
+ul li a:hover{
+       background-color: lightblue;
+
+} */
+.main .logo{
+    float: left;
+}
+.logo img{
+    float: left;
+    width: 90px;
+    height: auto;
+    padding: 5px 0;
+}
+.menu {
+    float: right;
+    margin-top: 30px;
+}
+.title{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #38ACEC;;
+    font-size: 40px;
+    
+}
+ul{
+    padding: 0;
+    list-style: none;
+    
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: right;
+}
+ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: #38ACEC;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ul li a:hover{
+    color: #fff;
+    background: #38ACEC;
+}
+ul li ul.dropdown{
+    min-width: 100%; /* Set width of the dropdown */
+    background: #fff;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown{
+    display: block; /* Display the dropdown */
+}
+ul li ul.dropdown li{
+    display: block;
+    white-space: nowrap;
+    text-align: left;
+}
+.box-center{
+    margin: 5% 15%;
+    text-align: center;
+}
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.Column {
+    display: table-cell;
+    
+}
+h3 {
+    color:#38ACEC;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+h2 {
+    color:#38ACEC;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 700;
+}
+h4 {
+    color:#38ACEC;
+    text-transform: uppercase;
+    /* margin-bottom: 10px; */
+    text-align: left;
+    padding: 20px 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: red;
+    color: black;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: red;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+  .about {
+    width: 85%;
+    margin: auto;
+    padding: 20px 0px;
+  }
+  h4 {
+    color:#38ACEC;
+    text-transform: uppercase;
+    /* margin-bottom: 10px; */
+    text-align: left;
+    padding: 20px 0px;
+}
+.img-about {
+    background-image: url(../images/about.jpg);
+    background-position: center; 
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+.img-contact {
+  background-image: url(../images/slider-02.jpg);
+  background-position: center; 
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; 
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #0095e5;
+    color:white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  
+  input[type=send]:hover {
+    background-color: #0095e5;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .contact {
+    width: 85%;
+    margin: auto;
+    padding: 20px 0px;
+  }
+.form-section{
+   width:80%; height:auto ;float:right;
+   padding-left: 50px;
+   padding-bottom: 25px;
+}
+.contact-section{
+     
+    width:20%; height:auto;
+    float:left;
+}
+.addr{
+  color: #0095e5;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 15px 0px;
+}
+.cont-frm{
+  padding:15px 0px 45px 0px ;
+  color: #0095e5;
+  font-size: 25px;
+  font-weight: 600;
+}
+footer{
+  text-align: center;
+  background-color: #0095e5;
+  padding: 10px;
+  color: white;
+  clear: both;
+  
+}
